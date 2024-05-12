@@ -1,0 +1,40 @@
+.header{
+  height: 54vw;
+  margin: 30px auto;
+  background: url('/Deliciousfood.png') no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.header-contents{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1.5vw;
+  max-width: 50%;
+  bottom: 40%;
+  left: 6vw;
+  animation: fadeIn 3s;
+}
+
+.header-contents h2{
+  font-weight: 500;
+  color: white;
+  font-size: max(4.5vw,22px);
+}
+
+.header-contents p{
+  font-size: 1vw;
+  color: #151515;
+}
+
+.header-contents button{
+  border: none;
+  color: #884A39;
+  font-weight: 500;
+  padding: 1vw 2.3vw;
+  background-color: white;
+  font-size: max(1vw,13px);
+  border-radius: 50px;
+}
